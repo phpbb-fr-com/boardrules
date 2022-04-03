@@ -54,11 +54,11 @@ $lang = array_merge($lang, array(
 	'ACP_BOARDRULES_NOTIFY_EXPLAIN'			=> 'Avertit tous les utilisateurs enregistrés que les règles du forum ont été mises à jour. (Cette opération peut prendre plusieurs secondes à s’exécuter sur les forums contenant des milliers de membres.)',
 	'ACP_BOARDRULES_NOTIFY_CONFIRM'			=> 'Êtes-vous certain(e) de vouloir envoyer un avertissement à tous les utilisateurs ?',
 	'ACP_BOARDRULES_SETTINGS_CHANGED'		=> 'Paramètres des règles du forum modifiés.',
-	'ACP_BOARDRULES_LIST_STYLE'				=> 'Board rules list style',
-	'ACP_BOARDRULES_LIST_STYLE_EXPLAIN'		=> 'Board rules are presented in a list format. Decide if you want rule and category items to be preceded by ordered alpha-numeric ordinals (this is the default behavior), bullets or nothing.',
-	'ACP_BOARDRULES_LIST_STYLE_ORDERED'		=> 'Ordered alpha-numeric',
-	'ACP_BOARDRULES_LIST_STYLE_BULLET'		=> 'Bullet',
-	'ACP_BOARDRULES_LIST_STYLE_NONE'		=> 'None',
+	'ACP_BOARDRULES_LIST_STYLE'				=> 'Style de liste des règles du forum',
+	'ACP_BOARDRULES_LIST_STYLE_EXPLAIN'		=> 'Les règles du forum sont présentées sous forme de liste. Décidez si vous voulez que les règles et les catégories soient hiérarchisés avec des ordinaux alphanumérique (c’est le comportement par défaut), des puces ou rien.',
+	'ACP_BOARDRULES_LIST_STYLE_ORDERED'		=> 'Ordinaux alphanumérique',
+	'ACP_BOARDRULES_LIST_STYLE_BULLET'		=> 'Puces',
+	'ACP_BOARDRULES_LIST_STYLE_NONE'		=> 'Rien',
 
 	// Manage page
 	'ACP_BOARDRULES_MANAGE'					=> 'Gestion des règles',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_RULE_MESSAGE_DISABLED'				=> 'Cette catégorie contient des règles, l’éditeur de message a été désactivé.',
 	'ACP_ADD_RULE'							=> 'Créer une nouvelle règle',
 	'ACP_DELETE_RULE_CONFIRM'				=> array(
-		0 => 'Confirmer la supression de cette règle.',
+		0 => 'Confirmer la suppression de cette règle.',
 		1 => 'Confirmer la suppression de cette catégorie.<br />Information importante : La suppression d’une catégorie supprimera aussi toutes les règles qu’elle contient.',
 	),
 	'ACP_RULE_ADDED'						=> 'Règle ajoutée avec succès.',
